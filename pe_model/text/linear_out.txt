@@ -1,0 +1,59 @@
+
+Equilibrium results for Large country model 1.(lin) with tariff 0.3 ad-valorem
+	pstar_t:	    0.46	tariff-inclusive price on home market
+	pstar:  	    0.32	price received by exporter
+	mstar:  	    6.07	import quantity
+	xstar:  	    6.07	export quantity
+	dstar:  	   15.09	domestic demand quantity
+	sstar:  	    9.02	domestic supply quantity
+	P0:     	    0.61	Price at home no-trade equilibrium (Euros)
+	Q0:     	   12.81	Quantity at home no-trade equilibrium (Tons)
+
+Equilibrium elasticities:
+ 	Home demand:	     -0.46
+	Home supply:	      1.28
+	Import demand:	     -1.11
+	Export supply:	      1.33
+
+Welfare results for tariff: 0.3 ad-valorem:
+All in Euros
+Home
+	dCS:      	     -0.82
+	dPS:      	      0.44
+	dRev:     	      0.32
+	DW:       	     -0.06
+	ToT:      	      0.52
+	total:    	      0.46
+	EV:       	     -0.80
+	CV:       	     -0.84
+
+Foreign
+	ToT:      	     -0.52
+	dPS:      	     -0.61
+
+World
+	dCS_h:    	     -0.82
+	dPS_h:    	      0.44
+	dRev_h:   	      0.32
+	ToT_h:    	      0.52
+	Net Home: 	      0.46
+	dPS_f:    	     -0.61
+	ToT_f:    	     -0.52
+	Net Foreign:	     -1.12
+	Net WORLD:	     -0.66
+
+Optimal tariff: Ad-Valorem 0.42, with an AVE of 42%
+Welfare outcome: Euros 0.51
+
+NOTE: Ad-Valorem means money per value, eg. x%/100
+
+Optimal tariff for unequal weights (dCS, dPS, dRev, ToT): [0.36, 0.27, 0.18, 0.18] AVE: 5%
+Weighted welfare outcome: 0.00
+
+Model parameters read from: G:\PythonScripts\trade\pe_model\params\linear.json
+
+A bunch of figures saved in: G:\PythonScripts\trade\pe_model\figures
+And this report has made it to: G:\PythonScripts\trade\pe_model\text\linear_out.txt
+
+ ********** END ********** 
+

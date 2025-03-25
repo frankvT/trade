@@ -1,0 +1,15 @@
+{
+    "SYSTEM": "linlog",
+    "home demand": {
+        "const": 2,
+        "slope": -1.5
+    },
+    "home supply": {
+        "const": 1,
+        "slope": 0.5
+    },
+    "foreign supply": {
+        "const": 1.0,
+        "slope": 0.9
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "SYSTEM": "lin",
+    "MONEY": "Euros",
+    "VOLUME": "Tons",
+    "TAR_type": "Ave",
+    "TAR_val": 0.3,
+    "homedem_pars": {
+        "const": 22,
+        "slope": -15
+    },
+    "homesup_pars": {
+        "const": -2.5,
+        "slope": 25
+    },
+    "forsup_pars": {
+        "const": -2.0,
+        "slope": 25
+    }
+}

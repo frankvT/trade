@@ -1,0 +1,19 @@
+{
+    "SYSTEM": "linlog",
+    "MONEY": "Euros",
+    "VOLUME": "Tons",
+    "TAR_type": "Specific",
+    "TAR_val": 0.5,
+    "homedem_pars": {
+        "const": 2.0,
+        "slope": -1.5
+    },
+    "homesup_pars": {
+        "const": 2.0,
+        "slope": 0.5
+    },
+    "forsup_pars": {
+        "const": 5.0,
+        "slope": 0.9
+    }
+}
