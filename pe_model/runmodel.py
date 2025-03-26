@@ -101,16 +101,15 @@ opt_tar = opt_tar_toplot["tar"][idx]
 opt_tar_ave = opt_tar_toplot["AVE"][idx]
 opt_tar_welf = opt_tar_toplot["welf"][idx]
 
-# If the weighst for the 4 welfare components are not eqal, we get something different. 
-# E.g put more weight on consumers and producers than on revenue and ToT: 
-weights = np.array([4, 3, 2, 2])
+# If the weighst for the 3 welfare components are not equal, we get something different. 
+# E.g put more weight on consumers and producers than on revenue: 
+weights = np.array([4, 3, 2])
 weights = weights/weights.sum() # to make sure they sum to unity
 
 # weighted sum as product of matrix and vector of weights
 welf_weighted =  np.array([opt_tar_toplot['dCS'],
                  opt_tar_toplot['dPS'],
-                 opt_tar_toplot['rev'],
-                 opt_tar_toplot['ToT']]).T@weights
+                 opt_tar_toplot['rev']]).T@weights
                   
 idx = np.where(welf_weighted == max(welf_weighted))[0][0]
 opt_tar_ave_weighted = opt_tar_toplot["AVE"][idx]
@@ -152,7 +151,7 @@ def create_rep(txtfile=False, **kwargs):
             f"\nWelfare outcome: {opt_tar_toplot['unit']} {opt_tar_welf:.2f}")
             print(f"\nNOTE: {opt_tar_toplot['tartype'].title()} means {tar.unit}\n")
 
-            print(f"Optimal tariff for unequal weights (dCS, dPS, dRev, ToT): "
+            print(f"Optimal tariff for unequal weights (dCS, dPS, dRev): "
                   f"{[round(w,2) for w in weights]} "
                   f"AVE: {opt_tar_ave_weighted:.0%}"
                   f"\nWeighted welfare outcome: {max(welf_weighted):.2f}")

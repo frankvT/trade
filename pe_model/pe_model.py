@@ -305,7 +305,7 @@ def home_welf(p0, p_t, pstar):
     # terms of trade effect
     tot = (p0 - pstar) * impdem(p_t)  
     # tariff revenues
-    rev = (p_t - p0) * impdem(p_t)
+    rev = (p_t - pstar) * impdem(p_t)
     
     # collect results 
     welf = {}
@@ -315,7 +315,7 @@ def home_welf(p0, p_t, pstar):
     # deadweight loss: net of consumer loss and producer gains and gov revenue
     welf["DW"] = welf["dCS"] +  welf["dPS"] + welf["dRev"]
     welf["ToT"] = tot
-    welf["total"] = welf["dCS"] + welf["dPS"] + welf["dRev"] + welf["ToT"]
+    welf["total"] = welf["dCS"] + welf["dPS"] + welf["dRev"] 
     welf["EV"] = ev
     welf["CV"] = cv
     return welf
@@ -337,12 +337,11 @@ def world_welf(w_home, w_foreign):
     welf['dPS_h'] = w_home['dPS']
     welf['dRev_h'] = w_home['dRev']
     welf['ToT_h'] = w_home['ToT']
-    welf['Net Home'] = welf['dCS_h'] + welf['dPS_h'] + welf['dRev_h']\
-                    + welf['ToT_h']
+    welf['Net Home'] = welf['dCS_h'] + welf['dPS_h'] + welf['dRev_h']
     
     welf['dPS_f'] = w_foreign['dPS']
     welf['ToT_f'] = w_foreign['ToT']
-    welf['Net Foreign'] = welf['dPS_f'] + welf['ToT_f']
+    welf['Net Foreign'] = welf['dPS_f']
 
     welf['Net WORLD'] = welf['Net Home'] + welf['Net Foreign']
  
