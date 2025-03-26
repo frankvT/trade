@@ -1,7 +1,7 @@
 .\pe_model
 
 readme.txt
-FvT 03/2015
+FvT 03/2025
 
 This directory contains Python code to run a simple partial equilibrium (pe) model of trade 
 for a 'large' country. This means that world prices are not a gfoven for the importer who can 
