@@ -2,8 +2,9 @@
 
 readme.txt
 FvT 03/2025
+# ReadMe
 
-This directory contains Python code to run a simple partial equilibrium (pe) model of trade 
+This repository contains Python code to run a simple partial equilibrium (pe) model of trade 
 for a 'large' country. This means that world prices are not a gfoven for the importer who can 
 impact world prices by varying its level of imports, for example by setting tariffs.
 
@@ -24,7 +25,7 @@ first class objects that can be passed around.
 Installation:
 Copy the model in a suitable directory
 
-Run:
+## Run:
 a) within your favourite IDE or VS Code
 b) from shell command line: pythyon runmodel.py
 					or:
@@ -33,13 +34,14 @@ b) from shell command line: pythyon runmodel.py
 The script runmodel.py is a good starting point to develop simulations with the model. 
 It shows how to calculate the 'optimal tariff' and creates a number of plots and text outputs.
 
-Dependencies:
+## Requirements:
 python 3.11.9
 numpy 1.26.4
 scipy 1.13.1
 matplotlib 3.8.4
 json 2.0.9
 
+## Tree structure
 
 + .\pe_model	
     + basefuncs.py							Template definition of functions used

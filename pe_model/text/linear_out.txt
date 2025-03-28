@@ -20,8 +20,8 @@ All in Euros
 Home
 	dCS:      	     -0.82
 	dPS:      	      0.44
-	dRev:     	      0.32
-	DW:       	     -0.06
+	dRev:     	      0.84
+	DW:       	      0.46
 	ToT:      	      0.52
 	total:    	      0.46
 	EV:       	     -0.80
@@ -34,26 +34,26 @@ Foreign
 World
 	dCS_h:    	     -0.82
 	dPS_h:    	      0.44
-	dRev_h:   	      0.32
+	dRev_h:   	      0.84
 	ToT_h:    	      0.52
 	Net Home: 	      0.46
 	dPS_f:    	     -0.61
 	ToT_f:    	     -0.52
-	Net Foreign:	     -1.12
-	Net WORLD:	     -0.66
+	Net Foreign:	     -0.61
+	Net WORLD:	     -0.15
 
 Optimal tariff: Ad-Valorem 0.42, with an AVE of 42%
 Welfare outcome: Euros 0.51
 
 NOTE: Ad-Valorem means money per value, eg. x%/100
 
-Optimal tariff for unequal weights (dCS, dPS, dRev, ToT): [0.36, 0.27, 0.18, 0.18] AVE: 5%
+Optimal tariff for unequal weights (dCS, dPS, dRev): [0.44, 0.33, 0.22] AVE: 5%
 Weighted welfare outcome: 0.00
 
-Model parameters read from: G:\PythonScripts\trade\pe_model\params\linear.json
+Model parameters read from: g:\PythonScripts\trade\pe_model\params\linear.json
 
-A bunch of figures saved in: G:\PythonScripts\trade\pe_model\figures
-And this report has made it to: G:\PythonScripts\trade\pe_model\text\linear_out.txt
+A bunch of figures saved in: g:\PythonScripts\trade\pe_model\figures
+And this report has made it to: g:\PythonScripts\trade\pe_model\text\linear_out.txt
 
  ********** END ********** 
 

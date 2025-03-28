@@ -1,0 +1,54 @@
+
+Equilibrium results for Large country model 1.(linlog) with tariff 0.5 specific tariff
+	pstar_t:	    0.74	tariff-inclusive price on home market
+	pstar:  	    0.24	price received by exporter
+	mstar:  	    1.40	import quantity
+	xstar:  	    1.40	export quantity
+	dstar:  	    3.12	domestic demand quantity
+	sstar:  	    1.72	domestic supply quantity
+	P0:     	    1.00	Price at home no-trade equilibrium (Euros)
+	Q0:     	    2.00	Quantity at home no-trade equilibrium (Tons)
+
+Equilibrium elasticities:
+ 	Home demand:	     -1.50
+	Home supply:	      0.50
+	Import demand:	     -1.63
+	Export supply:	      0.90
+
+Welfare results for tariff: 0.5 specific tariff:
+All in Euros
+Home
+	dCS:      	     -0.63
+	dPS:      	      0.27
+	dRev:     	      0.23
+	DW:       	     -0.36
+	ToT:      	      0.47
+	total:    	      0.11
+	EV:       	     -0.52
+	CV:       	     -0.76
+
+Foreign
+	ToT:      	     -0.47
+	dPS:      	     -0.75
+
+World
+	dCS_h:    	     -0.63
+	dPS_h:    	      0.27
+	dRev_h:   	      0.23
+	ToT_h:    	      0.47
+	Net Home: 	      0.34
+	dPS_f:    	     -0.75
+	ToT_f:    	     -0.47
+	Net Foreign:	     -1.21
+	Net WORLD:	     -0.87
+
+Optimal tariff: Specific Tariff 0.29, with an AVE of 44%
+Welfare outcome: Euros 0.20
+NOTE: Specific Tariff means money per quantity, e.g. $/ton
+Model parameters read from: G:\PythonScripts\trade\pe_model\params\params_linlog.json
+
+A bunch of figures saved in: G:\PythonScripts\trade\pe_model\figures
+And this report has made it to: G:\PythonScripts\trade\pe_model\text\params_linlog_out.txt
+
+ ********** END ********** 
+
